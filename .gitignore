@@ -1,0 +1,34 @@
+# Built files
+/build/
+/app/build/
+
+# Gradle
+.gradle/
+/local.properties
+*.iml
+
+# IDEs
+.idea/
+/*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Android Studio captures
+captures/
+
+# Gradle wrapper logs
+gradle-app.setting
+.gradle/
+
+# Misc
+*.apk
+*.ap_
