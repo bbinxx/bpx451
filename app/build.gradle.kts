@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.bibin.bp"
-        minSdk = 16
+        minSdk = 18
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
