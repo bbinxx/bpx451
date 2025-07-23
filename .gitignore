@@ -1,15 +1,36 @@
+# === Android Studio & IntelliJ IDEA ===
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# === macOS system file ===
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# === Build files ===
+build/
+*/build/
+.gradle/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# === Local config ===
 local.properties
+/local.properties
+
+# === Gradle wrapper logs ===
+gradle-app.setting
+gradlew.bat
+gradlew
+
+# === Log files ===
+*.log
+
+# === Signing configs (optional, if sensitive) ===
+*.jks
+*.keystore
